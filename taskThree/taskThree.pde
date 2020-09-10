@@ -3,6 +3,7 @@ color yellow = color(239, 255, 0);
 color green = color(102, 255, 0);
 int x = 0;
 
+
 void setup() {
   size(250, 500);
   frameRate(5);
@@ -25,6 +26,9 @@ void draw() {
   fill(green);
   rect(75, 285, 100, 100, 100, 75, 90, 120); // green light
   trafficLight();
+  
+  
+  
 }
 
 void trafficLight() {
@@ -46,6 +50,8 @@ void trafficLight() {
     yellow = color(145);
     green = color(102, 255, 0);
     x++;
+    
+    
   } else if (x==3 && keyPressed == true && key=='1') // red off, yellow on, green off
   {
     red = color(145);
@@ -56,6 +62,9 @@ void trafficLight() {
     x = 0;
   }
 }
+
+
+
 
 
 
