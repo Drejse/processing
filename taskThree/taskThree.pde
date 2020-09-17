@@ -6,7 +6,7 @@ int x = 0;
 
 void setup() {
   size(250, 500);
-  frameRate(5);
+  frameRate(10);
 }
 
 void draw() {

@@ -60,7 +60,9 @@ void MethodTwo()
 
 
   // Print if it is weekend here:
-if(weekDay == 5 || weekDay == 6){
-println("it's weekend - chill out");
-}
+  if (weekDay == 5 || weekDay == 6) {
+    println("it's weekend - chill out");
+  }else {
+    println("it's a weekday");
+  }
 }

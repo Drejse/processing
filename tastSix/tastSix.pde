@@ -17,9 +17,6 @@ a = 8;
   println("Failure");
 }
 
-
-
-
 x = 8;
 y = 7;
 z = 15;
